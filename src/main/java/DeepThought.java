@@ -27,7 +27,7 @@ public class DeepThought {
             System.out.println(e);
         }
     }
-    rivate void thinsk(int time){
+    private void thinsk(int time){
         try {
             TimeUnit.SECONDS.sleep(time);
         } catch (Exception e){
