@@ -27,6 +27,13 @@ public class DeepThought {
             System.out.println(e);
         }
     }
+    rivate void thinsk(int time){
+        try {
+            TimeUnit.SECONDS.sleep(time);
+        } catch (Exception e){
+            System.out.println(e);
+        }
+    }
     private void calculateTien(){
         for(int million_years = 0; million_years < 8; million_years++){
             System.out.println(million_years + " million   years have passed...");
